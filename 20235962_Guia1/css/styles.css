@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,229,172,1) 100%);
+    color: #000000; 
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 80%;  
+    margin: 0 auto;  
+    padding: 20px;  
+}
+
+
+#main-header {
+    background: linear-gradient(0deg, rgba(78,132,217,1) 74%, rgba(255,229,172,1) 100%);
+    padding: 20px;
+    text-align: center;
+    color: #feda4a;
+}
+
+.title {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+
+.text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.character-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.star-wars-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#main-footer {
+    background-color: #1c1c1c;
+    padding: 10px;a
+    text-align: center;
+    color: #aaa;
+}
