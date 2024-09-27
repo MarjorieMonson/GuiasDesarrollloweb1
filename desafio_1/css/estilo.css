@@ -74,12 +74,12 @@ table tbody tr:nth-child(even) {
 }
 
 
-@media (max-width: 480px) {
-    .table{
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
     }
-}
+
+}  
 form {
     max-width: 600px;
     margin: 20px auto;
