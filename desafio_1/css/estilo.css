@@ -235,15 +235,15 @@ footer {
 
 
 
-/* Línea debajo del título */
+
 .grid h3 {
-    color: #0056b3; /* Color azul para los títulos */
+    color: #0056b3; 
     margin: 5px 0;
-    padding-bottom: 5px; /* Espacio entre el texto y la línea */
-    border-bottom: 2px solid #c7c7c7; /* Línea azul debajo del título */
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c7c7c7; 
 }
 
-/* Sombra degradada en la parte inferior */
+
 .grid::after {
     content: "";
     position: absolute;
@@ -252,38 +252,38 @@ footer {
     bottom: 0;
     height: 20px;
     background: linear-gradient(to bottom, rgba(156, 156, 156, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
-    border-bottom-left-radius: 8px; /* Alineado con las esquinas del contenedor */
+    border-bottom-left-radius: 8px; 
     border-bottom-right-radius: 8px;
 }
 
-/* Sección de Testimonios */
+
 .testimonios {
     
-    background-color: #f0f0f0; /* Fondo gris claro */
-    padding: 80px 0; /* Espaciado superior e inferior */
+    background-color: #f0f0f0; 
+    padding: 80px 0; 
     width: 100%; 
-    box-sizing: border-box; /* Incluir padding en el ancho total */
+    box-sizing: border-box; 
 }
 
 .testimonios .envoltorio {
-    max-width: 1200px; /* Ancho máximo del contenido */
-    margin: 0 auto; /* Centrar el contenido */
+    max-width: 1200px; 
+    margin: 0 auto; 
     padding: 0 20px; 
 }
 .testimonios-grid {
     text-align: left;
-    color: #333; /* Color del texto */
+    color: #333; 
 }
 
 .testimonios-grid h3 {
-    text-transform: uppercase; /* Texto en mayúsculas */
+    text-transform: uppercase; 
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 .testimonios-grid p {
     font-size: 16px;
-    color: #555; /* Texto de color gris */
+    color: #555; 
     margin: 10px 0;
 }
 
@@ -293,20 +293,19 @@ footer {
 }
 
 .testimonios-grid h3 {
-    text-transform: uppercase; /* Texto en mayúsculas */
+    text-transform: uppercase; 
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #646464; /* Cambiar el color del título a azul oscuro */
+    color: #646464; 
 }
 
 
 .ofertas {
-    margin-top: 30px; /* Espacio entre el header y el video */
+    margin-top: 30px;
     display: flex;
-    justify-content: center; /* Centra el contenido dentro de esta sección */
+    justify-content: center; 
 }
-
 video {
     max-width: 100%; 
     height: auto; 
@@ -327,15 +326,15 @@ header {
 div.logo {
     margin: 0 auto;
     display: inline-block;
-    padding:  0; /* Ajusta el padding */
+    padding:  0; 
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin: 0; /* Elimina cualquier margen extra */
-    padding: 0; /* Elimina cualquier padding extra */
+    margin: 0;
+    padding: 0; 
     float: right;
     border: 0;
 }
@@ -348,7 +347,7 @@ nav ul li a {
     color: white; 
     font-size: 12.5px;
     text-decoration: none;
-    padding: 30px 15px; /* Ajuste del padding para alinear mejor el texto */
+    padding: 30px 15px; 
     display: inline-block;
 }
 
@@ -357,3 +356,4 @@ nav ul li a:hover {
   
     color: white;
 }
+
