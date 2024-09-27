@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.3;
+}
+
+.envoltorio {
+    width: 80%;
+    margin: 0px auto;
+    overflow: hidden;
+   
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table thead {
+    background-color: #002147;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.btn-aplicar {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-aplicar:hover {
+    background-color: #003d7a;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .envoltorio {
+        width: 100%;
+    }
+}
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form input[type="tel"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+                                                                                                                                   
+
+form input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003d7a;
+}
+.intro {
+    background-color: #0050a7; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.intro .envoltorio {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.intro h1 a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.intro p {
+    margin: 10px 0; 
+}
+.boton {
+    background-color: rgba(0, 0, 0, 0.3); 
+
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s; 
+}
+.boton:hover {
+    background-color: #115ca7; 
+}
+
+
+
+
+
+.grid-container {
+    
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+}
+
+
+h3 {
+    color: #0056b3; 
+    margin: 5px 0;
+}
+
+
+
+
+.grid {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px; 
+    text-align: center;
+    flex: 1 1 200px; 
+    max-width: 30%; 
+    position: relative; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+
+
+.grid img {
+    max-width: 70%;
+    height: auto; 
+}
+
+
+
+.botoncito {
+    background-color: #0056b3; 
+    color: white; 
+    padding: 5px 10px;
+    text-decoration: none; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin-top: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.botoncito:hover {
+    background-color: #003d7a; /
+}
+
+
+
+
+
+footer {
+    background-color: #404244;
+    text-align: left;
+    color: white;
+   
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Línea debajo del título */
+.grid h3 {
+    color: #0056b3; /* Color azul para los títulos */
+    margin: 5px 0;
+    padding-bottom: 5px; /* Espacio entre el texto y la línea */
+    border-bottom: 2px solid #c7c7c7; /* Línea azul debajo del título */
+}
+
+/* Sombra degradada en la parte inferior */
+.grid::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(156, 156, 156, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    border-bottom-left-radius: 8px; /* Alineado con las esquinas del contenedor */
+    border-bottom-right-radius: 8px;
+}
+
+/* Sección de Testimonios */
+.testimonios {
+    
+    background-color: #f0f0f0; /* Fondo gris claro */
+    padding: 80px 0; /* Espaciado superior e inferior */
+    width: 100%; 
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+
+.testimonios .envoltorio {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 0 20px; 
+}
+.testimonios-grid {
+    text-align: left;
+    color: #333; /* Color del texto */
+}
+
+.testimonios-grid h3 {
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonios-grid p {
+    font-size: 16px;
+    color: #555; /* Texto de color gris */
+    margin: 10px 0;
+}
+
+.testimonios-grid p b {
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonios-grid h3 {
+    text-transform: uppercase; /* Texto en mayúsculas */
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #646464; /* Cambiar el color del título a azul oscuro */
+}
+
+
+.ofertas {
+    margin-top: 30px; /* Espacio entre el header y el video */
+    display: flex;
+    justify-content: center; /* Centra el contenido dentro de esta sección */
+}
+
+video {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+header {
+    background-color: #404244;
+    padding: 5px 0; 
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo {
+    margin: 0 auto;
+    display: inline-block;
+    padding:  0; /* Ajusta el padding */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0; /* Elimina cualquier margen extra */
+    padding: 0; /* Elimina cualquier padding extra */
+    float: right;
+    border: 0;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white; 
+    font-size: 12.5px;
+    text-decoration: none;
+    padding: 30px 15px; /* Ajuste del padding para alinear mejor el texto */
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #0050a7;
+  
+    color: white;
+}
