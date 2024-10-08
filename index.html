@@ -4,56 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            color: #4a90e2;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #333;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #4a90e2;
-            display: inline-block;
-            padding-bottom: 10px;
-        }
-        .section {
-            margin-bottom: 60px; /* Aumenta el margen entre secciones */
-        }
-        nav {
-            margin-top: 20px;
-        }
-        a {
-            text-decoration: none;
-            color: #4a90e2;
-            font-size: 18px;
-            margin: 10px;
-            padding: 10px;
-            border: 2px solid #4a90e2;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
-            display: inline-block;
-            min-width: 200px;
-        }
-        a:hover {
-            background-color: #4a90e2;
-            color: #fff;
-        }
-    </style>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="stylehtml.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Página de Inicio</h1>
+    <h1>Portafolio de Proyectos</h1>
 
-    <!-- Sección Guía 1 -->
-    <div class="section">
+    <!-- Datos Personales -->
+    <div class="section personal-data">
+        <h2>Datos Personales</h2>
+        <p>Nombre: Marjorie Alexandra Monson Guzman</p>
+        <p>Carnet: 20235962</p>
+        <p>Breve biografía: Soy estudiante de segundo año de Ingeniería en Software y Negocios Digitales en ESEN...</p>
+    </div>
+
+    <!-- Datos Generales sobre la Materia -->
+    <div class="section course-info">
+        <h2>Datos Generales sobre la Materia</h2>
+        <p>Descripción del curso: El curso de Desarrollo Web tiene como objetivo enseñar las bases del diseño...</p>
+    </div>
+
+    <!-- Sección Guías -->
+    <div class="section guide guide-1">
         <h2>Guía 1</h2>
+        <p>Descripción: Esta guía abarca conceptos básicos de HTML y CSS...</p>
         <nav>
             <a href="20235962_Guia1/paises.html">Países</a>
             <a href="20235962_Guia1/ejemplo2.html">Práctica 2</a>
@@ -62,9 +38,9 @@
         </nav>
     </div>
 
-    <!-- Sección Guía 2 -->
-    <div class="section">
+    <div class="section guide guide-2">
         <h2>Guía 2</h2>
+        <p>Descripción: En esta guía nos enfocamos en la creación de páginas web más complejas...</p>
         <nav>
             <a href="20235962_Guia2/biografia.html">Biografía</a>
             <a href="20235962_Guia2/pelicula.html">Película</a>
@@ -72,9 +48,9 @@
         </nav>
     </div>
 
-    <!-- Sección Guía 3 -->
-    <div class="section">
+    <div class="section guide guide-3">
         <h2>Guía 3</h2>
+        <p>Descripción: En esta guía trabajamos con estructuras más avanzadas...</p>
         <nav>
             <a href="20235962_Guia3/index.html">Index</a>
             <a href="20235962_Guia3/menu_horizontal.html">Menú</a>
@@ -83,15 +59,44 @@
         </nav>
     </div>
 
-    <!-- Sección Desafío -->
-    <div class="section">
-        <h2>Desafío</h2>
+    <!-- Nueva sección Guía 4 -->
+    <div class="section guide guide-4">
+        <h2>Guía 4</h2>
+        <p>Descripción: En esta guía se trabajaron varios ejemplos prácticos con HTML y CSS...</p>
         <nav>
-            <a href="desafio_1/index.html">Index</a>
-            <a href="desafio_1/aplicar.html">Aplicar</a>
-            <a href="desafio_1/consejos.html">Consejos</a>
-            <a href="desafio_1/ofertas.html">Ofertas</a>
+            <a href="20235962_Guia4/Ejercicio1.html">Ejercicio 1</a>
+            <a href="20235962_Guia4/Ejercicio2.html">Ejercicio 2</a>
+            <a href="20235962_Guia4/Ejercicio3.html">Ejercicio 3</a>
+            <a href="20235962_Guia4/login.html">Login</a>
+            <a href="20235962_Guia4/mediaqueries.html">Media Queries</a>
+            <a href="20235962_Guia4/index.html"> Indexguia3 </a>
         </nav>
+    </div>
+
+    <!-- Sección FODA sobre el Desempeño -->
+    <div class="section foda">
+        <h2>FODA sobre el Desempeño</h2>
+        <ul>
+            <li><strong>Fortalezas:</strong> He mejorado significativamente mis habilidades en HTML y CSS...</li>
+            <li><strong>Oportunidades:</strong> Los conocimientos adquiridos en este curso me permitirán...</li>
+        </ul>
+    </div>
+
+    <!-- Sección Retroalimentación -->
+    <div class="section feedback">
+        <h2>Retroalimentación sobre el curso</h2>
+        <p><strong>Lo que me ha gustado:</strong> Disfruté aprender sobre diseño web...</p>
+    </div>
+
+    <!-- Sección de Aprendizaje Continuo -->
+    <div class="section continuous-learning">
+        <h2>Aprendizaje Continuo</h2>
+        <p><strong>Recursos adicionales:</strong> 
+            <ul>
+                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                <li><a href="https://developer.mozilla.org/es/">MDN Web Docs</a></li>
+            </ul>
+        </p>
     </div>
 </body>
 </html>

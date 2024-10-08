@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos de la cabecera */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+/* Estilo para las secciones generales */
+.section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto de sombra al pasar sobre la sección */
+.section:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de las secciones */
+.section h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Párrafos y listas */
+p, li {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Estilos personalizados para cada sección */
+.personal-data {
+    border-left: 6px solid #3498db;
+}
+
+.course-info {
+    border-left: 6px solid #e74c3c;
+}
+
+.guide {
+    border-left: 6px solid #8e44ad;
+}
+
+/* Estilos diferenciados para cada guía */
+.guide-1 {
+    border-left: 6px solid #2980b9;
+}
+
+.guide-2 {
+    border-left: 6px solid #27ae60;
+}
+
+.guide-3 {
+    border-left: 6px solid #f39c12;
+}
+
+.foda {
+    border-left: 6px solid #e67e22;
+    background-color: #f7f9f9;
+}
+
+.feedback {
+    border-left: 6px solid #9b59b6;
+    background-color: #f7f9f9;
+}
+
+.continuous-learning {
+    border-left: 6px solid #2ecc71;
+    background-color: #f7f9f9;
+}
+
+/* Estilos para las listas de navegación */
+nav a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    margin-right: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+}
+
+/* Listas dentro de las secciones */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Otros estilos adicionales */
+strong {
+    color: #2c3e50;
+}
+
+h2, p {
+    text-align: justify;
+}
+
+/* Asegurar que las secciones no se apeguen demasiado a los bordes de la pantalla en pantallas grandes */
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}
