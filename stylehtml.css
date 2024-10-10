@@ -93,7 +93,7 @@ footer {
 
 
 
-
+/* Teléfonos (pantallas pequeñas) */
 @media (max-width: 600px) {
     h1 {
         font-size: 1.8em;
@@ -113,7 +113,7 @@ footer {
         padding: 15px;
     }
 
-  
+    /* Imágenes en teléfonos */
     .reference-image {
         width: 100%;
         height: auto;
@@ -121,7 +121,6 @@ footer {
         margin-bottom: 10px;
     }
 }
-
 
 @media (max-width: 768px) {
     h1 {
@@ -142,7 +141,7 @@ footer {
         margin: 10px 5px;
     }
 
-
+    /* Imágenes en tabletas */
     .reference-image {
         width: 100%;
         height: auto;
@@ -157,7 +156,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-
+ 
     #personal .reference-image {
         max-width: 500px; 
         height: auto;
@@ -166,7 +165,7 @@ footer {
         border-radius: 8px;
     }
 
-
+ 
     #referencia .reference-image {
         width: 48%; 
         height: auto;
@@ -175,11 +174,11 @@ footer {
         display: inline-block; 
     }
 
+    
     #referencia {
         text-align: center;
     }
 }
-
 
 
 #referencia .reference-image {
@@ -188,6 +187,7 @@ footer {
     border-radius: 8px;
     margin: 10px; 
     display: inline-block; 
+}
 
 .reference-images {
     display: grid;
@@ -205,5 +205,3 @@ footer {
 .reference {
     text-align: center; 
 }
-
-
