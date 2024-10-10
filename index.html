@@ -3,100 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
-    <!-- Enlace al archivo CSS externo -->
+    <title>Marjorie Monson - Portafolio</title>
     <link rel="stylesheet" href="stylehtml.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <h1>Portafolio de Proyectos</h1>
-
-    <!-- Datos Personales -->
-    <div class="section personal-data">
-        <h2>Datos Personales</h2>
-        <p>Nombre: Marjorie Alexandra Monson Guzman</p>
-        <p>Carnet: 20235962</p>
-        <p>Breve biografía: Soy estudiante de segundo año de Ingeniería en Software y Negocios Digitales en ESEN...</p>
-    </div>
-
-    <!-- Datos Generales sobre la Materia -->
-    <div class="section course-info">
-        <h2>Datos Generales sobre la Materia</h2>
-        <p>Descripción del curso: El curso de Desarrollo Web tiene como objetivo enseñar las bases del diseño...</p>
-    </div>
-
-    <!-- Sección Guías -->
-    <div class="section guide guide-1">
-        <h2>Guía 1</h2>
-        <p>Descripción: Esta guía abarca conceptos básicos de HTML y CSS...</p>
-        <nav>
-            <a href="20235962_Guia1/paises.html">Países</a>
-            <a href="20235962_Guia1/ejemplo2.html">Práctica 2</a>
-            <a href="20235962_Guia1/Ejerciciopractica1.html">Mi serie favorita</a>
-            <a href="20235962_Guia1/estilos_embebidos.html">Estilos embebidos</a>
-        </nav>
-    </div>
-
-    <div class="section guide guide-2">
-        <h2>Guía 2</h2>
-        <p>Descripción: En esta guía nos enfocamos en la creación de páginas web más complejas...</p>
-        <nav>
-            <a href="20235962_Guia2/biografia.html">Biografía</a>
-            <a href="20235962_Guia2/pelicula.html">Película</a>
-            <a href="20235962_Guia2/tablero.html">Tablero</a>
-        </nav>
-    </div>
-
-    <div class="section guide guide-3">
-        <h2>Guía 3</h2>
-        <p>Descripción: En esta guía trabajamos con estructuras más avanzadas...</p>
-        <nav>
-            <a href="20235962_Guia3/index.html">Index</a>
-            <a href="20235962_Guia3/menu_horizontal.html">Menú</a>
-            <a href="20235962_Guia3/oscares.html">Oscares</a>
-            <a href="20235962_Guia3/analisis.html">Análisis</a>
-        </nav>
-    </div>
-
-    <!-- Nueva sección Guía 4 -->
-    <div class="section guide guide-4">
-        <h2>Guía 4</h2>
-        <p>Descripción: En esta guía se trabajaron varios ejemplos prácticos con HTML y CSS...</p>
-        <nav>
-            <a href="20235962_Guia4/Ejercicio1.html">Ejercicio 1</a>
-            <a href="20235962_Guia4/Ejercicio2.html">Ejercicio 2</a>
-            <a href="20235962_Guia4/Ejercicio3.html">Ejercicio 3</a>
-            <a href="20235962_Guia4/login.html">Login</a>
-            <a href="20235962_Guia4/mediaqueries.html">Media Queries</a>
-            <a href="20235962_Guia4/index.html"> Indexguia3 </a>
-        </nav>
-    </div>
-
-    <!-- Sección FODA sobre el Desempeño -->
-    <div class="section foda">
-        <h2>FODA sobre el Desempeño</h2>
-        <ul>
-            <li><strong>Fortalezas:</strong> He mejorado significativamente mis habilidades en HTML y CSS...</li>
-            <li><strong>Oportunidades:</strong> Los conocimientos adquiridos en este curso me permitirán...</li>
-        </ul>
-    </div>
-
-    <!-- Sección Retroalimentación -->
-    <div class="section feedback">
-        <h2>Retroalimentación sobre el curso</h2>
-        <p><strong>Lo que me ha gustado:</strong> Disfruté aprender sobre diseño web...</p>
-    </div>
-
-    <!-- Sección de Aprendizaje Continuo -->
-    <div class="section continuous-learning">
-        <h2>Aprendizaje Continuo</h2>
-        <p><strong>Recursos adicionales:</strong> 
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar">
             <ul>
-                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
-                <li><a href="https://developer.mozilla.org/es/">MDN Web Docs</a></li>
+                <li><a href="#personal">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#referencia">Referencias Visuales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </p>
-    </div>
+        </nav>
+        <h1>Portafolio de Marjorie Monson</h1>
+    </header>
+
+    <!-- Sección de Datos Personales -->
+    <section id="personal" class="section personal-data">
+        <img src="https://www.edesk.com/wp-content/uploads/2018/12/6-tips-to-improve-efficiency-of-your-ecommerce-business-min.jpg" alt="Imagen de Marjorie Monson" class="reference-image">
+        <h2>Sobre mí</h2>
+        <p>Estudiante de segundo año de Ingeniería en Software y Negocios Digitales. Actual vicepresidenta de EduTech, una asociación dedicada a impartir clases de tecnología en escuelas públicas. Apasionada por la tecnología, el emprendimiento y la comunidad estudiantil.</p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="skills" class="section skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li><strong>Lenguajes:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Desarrollo Web:</strong> Creación de sitios web dinámicos, diseño adaptable (responsive), y maquetación eficiente.</li>
+            <li><strong>Proyectos:</strong> Liderazgo en EduTech, tutoría en emprendimiento, organización de charlas tecnológicas y eventos recreativos.</li>
+            <li><strong>Colaboración:</strong> Trabajo en equipo, liderazgo, organización de eventos estudiantiles.</li>
+        </ul>
+        
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="section projects">
+        <h2>Proyectos</h2>
+        <div class="project-list">
+            <!-- Guía 1 -->
+            <div class="project">
+                <h3>Guía 1: HTML y CSS Básico</h3>
+                <p>Descripción: Fundamentos de HTML y CSS aplicados en varios ejercicios prácticos.</p>
+                <nav>
+                    <a href="20235962_Guia1/paises.html" class="btn">Países</a>
+                    <a href="20235962_Guia1/ejemplo2.html" class="btn">Práctica 2</a>
+                    <a href="20235962_Guia1/Ejerciciopractica1.html" class="btn">Mi serie favorita</a>
+                    <a href="20235962_Guia1/estilos_embebidos.html" class="btn">Estilos embebidos</a>
+                </nav>
+            </div>
+            <!-- Guía 2 -->
+            <div class="project">
+                <h3>Guía 2: Páginas web más complejas</h3>
+                <p>Descripción: Aplicación de conocimientos en proyectos más elaborados.</p>
+                <nav>
+                    <a href="20235962_Guia2/biografia.html" class="btn">Biografía</a>
+                    <a href="20235962_Guia2/pelicula.html" class="btn">Película</a>
+                    <a href="20235962_Guia2/tablero.html" class="btn">Tablero</a>
+                </nav>
+            </div>
+            <!-- Guía 3 -->
+            <div class="project">
+                <h3>Guía 3: Estructuras avanzadas</h3>
+                <p>Descripción: Trabajo con estructuras HTML avanzadas y estilos embebidos.</p>
+                <nav>
+                    <a href="20235962_Guia3/index.html" class="btn">Index</a>
+                    <a href="20235962_Guia3/menu_horizontal.html" class="btn">Menú Horizontal</a>
+                    <a href="20235962_Guia3/oscares.html" class="btn">Oscares</a>
+                    <a href="20235962_Guia3/analisis.html" class="btn">Análisis</a>
+                </nav>
+            </div>
+            <!-- Guía 4 -->
+            <div class="project">
+                <h3>Guía 4: HTML y CSS avanzado</h3>
+                <p>Descripción: En esta guía se trabajaron varios ejemplos prácticos con HTML y CSS.</p>
+                <nav>
+                    <a href="20235962_Guia4/Ejercicio1.html" class="btn">Ejercicio 1</a>
+                    <a href="20235962_Guia4/Ejercicio2.html" class="btn">Ejercicio 2</a>
+                    <a href="20235962_Guia4/Ejercicio3.html" class="btn">Ejercicio 3</a>
+                    <a href="20235962_Guia4/login.html" class="btn">Login</a>
+                    <a href="20235962_Guia4/mediaqueries.html" class="btn">Media Queries</a>
+                    <a href="20235962_Guia4/index.html" class="btn">Index</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Educación -->
+    <section id="educacion" class="section education">
+        <h2>Educación</h2>
+        <p>Estudiante de segundo año en ESEN, con especialización en Ingeniería en Software y Negocios Digitales. Me he destacado en cursos de Estructura de datos y progrmacion orientada a objetos, emprendimiento y liderazgo estudiantil.</p>
+    </section>
+
+    <!-- Sección de Referencias Visuales -->
+
+<section id="referencia" class="section reference">
+    <h2>Referencias Visuales</h2>
+    <img src="img/img1.jpg" alt="Imagen de Marjorie Monson" class="reference-image">
+    <img src="img/img2.jpg" alt="Imagen de Marjorie Monson" class="reference-image">
+
+    <p>Esta es una imagen representativa de mi trabajo o perfil.
+
+        Soy parte de EduTech, una asociación cuyo objetivo es fomentar la educación en tecnología en escuelas públicas. A través de talleres, clases interactivas y eventos educativos, trabajamos para equipar a los estudiantes con las habilidades necesarias para prosperar en un mundo digital. Como vicepresidenta, estoy comprometida en liderar iniciativas que no solo enseñen conocimientos técnicos, sino que también inspiren a los jóvenes a explorar su potencial en el ámbito tecnológico y a convertirse en agentes de cambio en sus comunidades.
+    </p>
+</section>
+
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section contact">
+        <h2>Contacto</h2>
+        <p>Email: marmonson1166@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/marjorie-monson-934a04320/">linkedin.com/in/marjorie-monson</a></p>
+        <p>instagram EduTech: <a href="https://www.instagram.com/edutech_esen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">EduTech</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Marjorie Monson. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
