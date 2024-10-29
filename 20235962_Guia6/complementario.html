@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Estudiante</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/complementario.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Ficha de Estudiante</h2>
+        <form id="studentForm">
+            <div class="form-group">
+                <label for="carnet">Carnet (Ejemplo: AB001):</label>
+                <input type="text" id="carnet" required>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="dui">Número de DUI (Ejemplo: ########-#):</label>
+                <input type="text" id="dui" required>
+            </div>
+            <div class="form-group">
+                <label for="nit">Número de NIT (Ejemplo: ####-######-###-#):</label>
+                <input type="text" id="nit" required>
+            </div>
+            <div class="form-group">
+                <label for="fechaNacimiento">Fecha de Nacimiento (DD/MM/AAAA):</label>
+                <input type="text" id="fechaNacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" required>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
