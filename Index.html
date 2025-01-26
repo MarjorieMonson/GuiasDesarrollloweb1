@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guías de Desarrollo Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-pink-100 to-pink-300 text-white">
+
+    <header class="text-center p-6 bg-pink-600 shadow-lg sticky top-0 z-50">
+        <h1 class="text-4xl font-semibold">Guías de Desarrollo Web</h1>
+        <nav class="mt-4">
+            <ul id="menu" class="flex justify-center gap-6">
+                <li><a href="#sobre-mi" class="text-white hover:bg-pink-400 p-2 rounded transition">Sobre mí</a></li>
+                <li><a href="#guia1" class="text-white hover:bg-pink-400 p-2 rounded transition">Guía 1</a></li>
+                <li><a href="#guia2" class="text-white hover:bg-pink-400 p-2 rounded transition">Guía 2</a></li>
+            </ul>
+            <button id="menu-toggle" class="md:hidden text-white text-2xl mt-4">☰</button>
+        </nav>
+    </header>
+
+    <main class="px-6 py-12">
+        <section id="sobre-mi" class="text-center mb-12">
+            <h2 class="text-3xl border-b-4 border-pink-400 inline-block pb-2 mb-6">Sobre Marjorie Monson</h2>
+            <p class="text-lg max-w-3xl mx-auto leading-relaxed mb-4">Hola, soy Marjorie Monson, una estudiante de Ingeniería en Software y Negocios Digitales. Me apasiona la tecnología, el ajedrez y la educación inclusiva. Fundé Edutech para ayudar a escuelas públicas a integrar la programación e informática en su currículo.</p>
+            <img src="https://agenciawinners.com/wp-content/uploads/2020/07/desarrollo-web.png" alt="Desarrollo Web" class="mx-auto rounded-lg max-w-full h-auto max-h-80">
+        </section>
+
+        <section id="guia1" class="text-center mb-12">
+            <h2 class="text-3xl border-b-4 border-pink-400 inline-block pb-2 mb-6">Guía 1</h2>
+            <p class="text-lg max-w-3xl mx-auto leading-relaxed mb-4">Introducción a Tailwind CSS, un framework para diseño responsivo y moderno.</p>
+            <img src="https://th.bing.com/th/id/OIP.eUbUJ1MSxQQMO9Ch-VHV2AHaDX?rs=1&pid=ImgDetMain" alt="Tailwind CSS" class="mx-auto rounded-lg max-w-full h-auto max-h-80">
+            <ul class="flex flex-wrap justify-center gap-6 mt-6">
+                <li><a href="../Guia1_20235962/producto/producto.html" class="bg-pink-400 text-white px-6 py-3 rounded-full transition hover:bg-pink-500">Producto</a></li>
+                <li><a href="../Guia1_20235962/pricing-card/pricing.html" class="bg-pink-400 text-white px-6 py-3 rounded-full transition hover:bg-pink-500">Pricing Card</a></li>
+                <li><a href="../Guia1_20235962/login/login.html" class="bg-pink-400 text-white px-6 py-3 rounded-full transition hover:bg-pink-500">Login</a></li>
+                <li><a href="../Guia1_20235962/galeria/galeria.html" class="bg-pink-400 text-white px-6 py-3 rounded-full transition hover:bg-pink-500">Galería</a></li>
+                <li><a href="../Guia1_20235962/clipboard/index.html" class="bg-pink-400 text-white px-6 py-3 rounded-full transition hover:bg-pink-500">Clipboard</a></li>
+                <li><a href="../Guia1_20235962/Complementario1/index.html" class="bg-pink-400 text-white px-6 py-3 rounded-full transition hover:bg-pink-500">Complementario</a></li>
+            </ul>
+        </section>
+
+        <section id="guia2" class="text-center mb-12">
+            <h2 class="text-3xl border-b-4 border-pink-400 inline-block pb-2 mb-6">Guía 2</h2>
+            <p class="text-lg max-w-3xl mx-auto leading-relaxed mb-4">Contenido adicional sobre buenas prácticas en desarrollo web.</p>
+            <img src="https://www.tao-si.com/wp-content/uploads/2021/11/oblikovanje-spletnih-strani.jpg" alt="Buenas prácticas de desarrollo web" class="mx-auto rounded-lg max-w-full h-auto max-h-80">
+        </section>
+    </main>
+
+    <footer class="text-center py-6 bg-pink-600">
+        <p>&copy; 2025 Marjorie Monson - Todos los derechos reservados.</p>
+        <div class="social-media mt-4">
+            <h3 class="text-xl mb-4">Síguenos en nuestras redes sociales:</h3>
+            <ul class="flex justify-center gap-6">
+                <li><a href="https://www.instagram.com/alexang11/" target="_blank" class="text-white hover:text-pink-400">Instagram Marjorie</a></li>
+                <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="text-white hover:text-pink-400">LinkedIn Marjorie</a></li>
+                <li><a href="https://www.instagram.com/edutech_esen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="text-white hover:text-pink-400">Instagram Edutech</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="fixed bottom-8 right-8 bg-pink-400 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-pink-500">
+        ↑
+    </button>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+
+        menuToggle.addEventListener("click", () => {
+            menu.classList.toggle("active");
+        });
+
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        });
+
+        scrollTopBtn.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+</html>
